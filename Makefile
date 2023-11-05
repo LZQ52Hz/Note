@@ -15,9 +15,6 @@ help:
 # 同时也 push 到 gitee
 push:
 	git push -u origin master
-	@if ! git remote | grep -q "gitee_origin"; then \
-		git remote add gitee_origin $(GITEE_URL); fi
-	git push -u gitee_origin master
 
 simple:
 	git add . && git commit -m "1"	|| true
