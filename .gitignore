@@ -1,0 +1,9 @@
+.vscode/
+*.out
+*.exe
+build/
+_*/
+*.o
+node_modules/
+*.elf
+*.bin
